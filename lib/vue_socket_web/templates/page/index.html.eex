@@ -1,0 +1,6 @@
+<div class="row marketing">
+  <div id="textField" class="col-lg-6">
+    <h1>{{ title }}</h1>
+    <textarea rows="10" cols="50" v-model="msg" v-on:keyup="textFieldChangeEvent" type="text" name="" value= focus></textarea>
+  </div>
+</div>
