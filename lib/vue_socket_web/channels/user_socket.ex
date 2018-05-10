@@ -3,6 +3,7 @@ defmodule VueSocketWeb.UserSocket do
 
   ## Channels
   channel "textField:*", VueSocketWeb.TextFieldChannel
+  channel "draggable:*", VueSocketWeb.DraggableChannel
 
   ## Transports
   transport :websocket, Phoenix.Transports.WebSocket
